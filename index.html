@@ -2,18 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>AI Chatbot</title>
+    <title>Yuni Browser</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div id="chat-container">
-    <div id="chat-box"></div>
+<div class="page">
+    <header class="top-bar">
+        <div class="logo">Yuni</div>
+        <nav class="nav-links">
+            <a href="#">Privacy</a>
+            <a href="#">Settings</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
 
-    <div id="input-area">
-        <input type="text" id="user-input" placeholder="Type a message...">
-        <button id="send-btn">Send</button>
-    </div>
+    <main class="center">
+        <div class="brand">
+            <div class="brand-logo">🌓</div>
+            <div class="brand-name">Yuni</div>
+            <div class="brand-tagline">Search with calm, browse with clarity.</div>
+        </div>
+
+        <div class="search-box">
+            <input id="search-input" type="text" placeholder="Search the web with Yuni...">
+            <button id="search-btn">Search</button>
+        </div>
+
+        <div class="quick-links">
+            <span>Quick links:</span>
+            <button class="pill">News</button>
+            <button class="pill">Videos</button>
+            <button class="pill">Images</button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <span>Yuni Browser · Privacy‑first · Inspired by DuckDuckGo</span>
+    </footer>
 </div>
 
 <script src="script.js"></script>
